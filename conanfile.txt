@@ -1,0 +1,17 @@
+[requires]
+glew/2.2.0
+rmlui/4.3@jbatnozic/stable
+sfml/2.5.1
+
+freetype/2.11.1
+
+[options]
+sfml:window=True
+sfml:graphics=True
+
+[generators]
+cmake
+
+[imports]
+bin, *.dll -> ./bin
+lib, *.dylib* -> ./bin
